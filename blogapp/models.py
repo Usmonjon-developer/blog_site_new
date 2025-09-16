@@ -42,7 +42,3 @@ class Post(models.Model):
 
 posts = Post.objects.filter(status='published')
 p_posts = Post.published.all()
-
-
-
-
